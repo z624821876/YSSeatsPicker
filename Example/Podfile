@@ -2,7 +2,7 @@ use_frameworks!
 
 platform :ios, '8.0'
 target 'YSSeatsPicker_Example' do
-    pod 'YSSeatsPicker', :path => '/Users/aladin/Documents/代码仓库/猫眼选座'
+    pod 'YSSeatsPicker', :path => '../'
 
     pod 'MJExtension', '3.0.13'
 

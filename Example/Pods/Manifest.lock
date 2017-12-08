@@ -1,19 +1,19 @@
 PODS:
   - MJExtension (3.0.13)
-  - YSSeatsPicker (1.0.0)
+  - YSSeatsPicker (1.0.1)
 
 DEPENDENCIES:
   - MJExtension (= 3.0.13)
-  - YSSeatsPicker (from `/Users/aladin/Documents/代码仓库/猫眼选座`)
+  - YSSeatsPicker (from `../`)
 
 EXTERNAL SOURCES:
   YSSeatsPicker:
-    :path: /Users/aladin/Documents/代码仓库/猫眼选座
+    :path: ../
 
 SPEC CHECKSUMS:
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  YSSeatsPicker: 70db61571fefa1922d5989656466f25b8f4dcc63
+  YSSeatsPicker: 3f81c767456f8a035351593e7b64052d3d7f3f44
 
-PODFILE CHECKSUM: 9e16ab30ec7a6e5cdbf7ff280e95a7241c969507
+PODFILE CHECKSUM: 9ea87052ee938cd4468d717c41e26ede484fa8cd
 
 COCOAPODS: 1.3.1
