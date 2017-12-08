@@ -55,7 +55,8 @@
       
         _hallLogoImage = [ZYSMovieTools movieBundleImageWithImageNamed:@"may_mreserve_seat_screen_img"];
         _cinemaLogoImage = [ZYSMovieTools movieBundleImageWithImageNamed:@"may_mreserve_brand_icon"];
-
+        _hallName = @"IMAX";
+        
         _cellSize = CGSizeMake(30, 27);
         _lineSpacing = 10;
         _columnSpacing = 10;
@@ -90,7 +91,7 @@
     [self addSubview:_centerLineView];
     
     _hallLogoView = [[ZYSHallLogoView alloc] init];
-    _hallLogoView.hallName = @"IMAX";
+    _hallLogoView.hallName = _hallName;
     _hallLogoView.hallLogo = _hallLogoImage;
     _hallLogoView.size = _hallLogoImage.size;
     [self addSubview:_hallLogoView];
@@ -107,6 +108,7 @@
     [self addSubview:_indexView];
     
     _indicatorView = [[ZYSIndicatorView alloc] initWithSeatsView:_contentView];
+    _indicatorView.hallLogoImage = _hallLogoImage;
     [self addSubview:_indicatorView];
     CGFloat width = self.width / 3.0 + 6;
     CGFloat height = (self.width / 3.0) / _contentView.width * _contentView.height + 12;

@@ -37,8 +37,13 @@
 /** 列间距 */
 @property (nonatomic, assign) CGFloat   columnSpacing;
 
+/** 大厅名字 */
+@property (nonatomic, copy) NSString  *hallName;
+
+/** 大厅名字背景图 */
 @property (nonatomic, strong) UIImage   *hallLogoImage;
 
+/** 影院logo */
 @property (nonatomic, strong) UIImage   *cinemaLogoImage;
 
 @property (nonatomic, copy) NSArray<ZYSMovieSeat *>   *seats;

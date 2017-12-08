@@ -31,14 +31,14 @@
         _seatsView = seatsView;
         self.backgroundColor = [UIColor colorWithWhite:0 alpha:0.4];
         
-//        _mapView = [UIImageView new];
-//        [self addSubview:_mapView];
-        
         _indicatorView = [UIView new];
         _indicatorView.layer.borderColor = [UIColor redColor].CGColor;
         _indicatorView.layer.borderWidth = 2.0f;
         [self addSubview:_indicatorView];
     
+        _hallLogoImage = [ZYSMovieTools movieBundleImageWithImageNamed:@"may_mreserve_seat_screen_img"];
+
+        
         [self updateIndicatorImage];
     }
     return self;
@@ -86,8 +86,6 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-//    _mapView.frame = CGRectMake(3, 9, self.width - 6, self.height - 12);
-
     _indicatorView.frame = (CGRect){
         //加上内容的偏移  减去边框的宽度
         _displayRect.origin.x + 3 - 2,
@@ -99,8 +97,7 @@
 
 - (void)drawRect:(CGRect)rect {
     
-    UIImage *logoImage = [UIImage imageNamed:@"screenBg"];
-    [logoImage drawInRect:CGRectMake(2 * 3, 3, self.width - 4 * 3, 3)];
+    [_hallLogoImage drawInRect:CGRectMake(2 * 3, 3, self.width - 4 * 3, 3)];
     
     [_mapImage drawInRect:CGRectMake(3, 9, self.width - 6, self.height - 12)];
     _mapImage = nil;

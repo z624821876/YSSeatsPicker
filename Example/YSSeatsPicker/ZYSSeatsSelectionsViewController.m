@@ -8,10 +8,7 @@
 
 #import "ZYSSeatsSelectionsViewController.h"
 
-#import "ZYSMovieSection.h"
-#import "ZYSSeatsPicker.h"
-
-#import "ZYSMovieTools.h"
+#import "YSSeatsPickerHeader.h"
 
 #import "MJExtension.h"
 
@@ -39,6 +36,7 @@
     [self.view addSubview:_picker];
     
     [_picker reloadData];
+    
 }
 
 

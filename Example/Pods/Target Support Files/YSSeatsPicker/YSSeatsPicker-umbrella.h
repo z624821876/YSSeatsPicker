@@ -14,6 +14,7 @@
 #import "ZYSMovieSection.h"
 #import "ZYSMovieTools.h"
 #import "UIView+YSAddition.h"
+#import "YSSeatsPickerHeader.h"
 #import "ZYSCenterLineView.h"
 #import "ZYSHallLogoView.h"
 #import "ZYSIndicatorView.h"

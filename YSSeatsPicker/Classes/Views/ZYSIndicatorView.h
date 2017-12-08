@@ -10,6 +10,8 @@
 
 @interface ZYSIndicatorView : UIView
 
+@property (nonatomic, strong) UIImage   *hallLogoImage;
+
 - (instancetype)initWithSeatsView:(UIView *)seatsView;
 
 /**

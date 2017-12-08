@@ -12,55 +12,56 @@
 		094E6ECE34F0CCB085FAA095D24708F4 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6FF722B58512EAF636070DC72CC7A /* MJPropertyType.m */; };
 		0A1D1BA5F4A6861F59960AE501A61367 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EB574A30430349912B9AA0E12991FB76 /* MJPropertyKey.m */; };
 		0B67D51C35E79EE135E38084317053DA /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = F18D18F4F677D18DFE17FF43AA71A3C6 /* NSObject+MJKeyValue.m */; };
-		0F94121BC55787EF90A0B1800ED41170 /* ZYSCenterLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E9B5116B9E3CB4B3C65CEBF28CAD23 /* ZYSCenterLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11BF0A3C217C5233EF08A6A2623CEA80 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C4E8583FBE38883C9A8F6CED0B9AB8 /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12219DE59718C1C3263B1C2CBACB04BE /* UIView+YSAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B410A0AA7D0A4F05B33C04A1206E2EC /* UIView+YSAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		166201ED812FC437B2979ECE037B6229 /* YSSeatsPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE12B5E02CD6723043A1207E28C29788 /* YSSeatsPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AA9032250A1C081FE9256987BEA7DEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		1F3AA5B9EBAAD134BF25B0B89FDF108B /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 814D74953564BF921B106C5A8A00E18F /* NSString+MJExtension.m */; };
 		1FBFD94316326DCB9485F8704696806B /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F21D3B6AB8A0B971DE7A16782E2E38A0 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21708A70FCDA593FC1C3241005215600 /* ZYSMovieSeat.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D255B38FFEA26C641BA53996BE4F86 /* ZYSMovieSeat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E04F7FD19DB0B64EA10207786F864EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		383448308BB9C5CB67073E0A8DED4A43 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = EDDBBBC1617D4C1B338F6208FFEC7DC4 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4373EB16F6CFE22024EFBDC9A4E13060 /* UIView+YSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8EB54D8794973BB0755B505D8AFF8A /* UIView+YSAddition.m */; };
+		4373EB16F6CFE22024EFBDC9A4E13060 /* UIView+YSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EF07A10C36CA0C9EB642C84987FB0040 /* UIView+YSAddition.m */; };
+		44A411A5B163EA587320883DA1ACF725 /* ZYSSeatsPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2E614EC1C3C50089D2ABF9E9035817 /* ZYSSeatsPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58EFF22FEFA78894F9F808799F961BD5 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D90F731A3053DB7591E623D48A281E /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59A28C2CEFC4537C9DAF55D01C4ACED1 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F39865043ADE8A6C5C7161C21F5942 /* MJExtension-dummy.m */; };
 		5BD2A9D0D752792C18F1E7F6CDBEB0FA /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A410D0C9C7AA0EF8CB20F85639B8D29 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E89ED15FDB4CE7F92544DDF4589C242 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3BDE87C47FE4DA2F8B63B9423E7E1E /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EB8DB81CBE1B4643731B46E5F3CA278 /* ZYSMovieTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4BA25C2BD42FB5F1983D89D7B09FE2 /* ZYSMovieTools.m */; };
-		6343ED5E5D874F8DD7CE370F3876F098 /* ZYSMovie.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 08974D2D522FCB324C7A040BAF3FA376 /* ZYSMovie.bundle */; };
+		5EB8DB81CBE1B4643731B46E5F3CA278 /* ZYSMovieTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E570EF44ED37FAC5F57A6E0ACAF05 /* ZYSMovieTools.m */; };
+		6343ED5E5D874F8DD7CE370F3876F098 /* ZYSMovie.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AF2E4E319FA37E421350044D22A14E4 /* ZYSMovie.bundle */; };
 		64298620A2F1EFAB12386F3861E08D40 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F358B618C95AF5B81525A3E913689B /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66279223958D94CA5F6AC60C9F00FEF4 /* ZYSMovieTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E094CEB570FAFD4D0DBE99280B1535 /* ZYSMovieTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67028D1EE3831C4F529A4B723196FECA /* YSSeatsPickerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 20C500A45146B3BC2DADBD3A46774462 /* YSSeatsPickerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DA14D61DB56E00FF18F2F75C51454AE /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1C24B69A9CA3A0E89CD5BFA5FF4A8F /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7410B2A65C0651D85D3B173865D3026B /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193F6B3E7DA4B89DB231331D181C4B9 /* NSObject+MJClass.m */; };
-		80B11343E77FB6BC3E52320DE73FC4D2 /* ZYSMovieSeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6995A5BC57DEC49F4B537D2E92E657D9 /* ZYSMovieSeat.m */; };
-		82FF06C41678AE5DC552CEAEA9FE1CF5 /* ZYSHallLogoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9C7473191CB514D708D63B1A9A7FFF /* ZYSHallLogoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DC9AFF8F1595B04AE92D881A77D9D38 /* ZYSSeatsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AB84E2C29C277A3861C3E9462022FC /* ZYSSeatsButton.m */; };
+		78D822E83F0377115C49DD28986CF687 /* ZYSMovieSeat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D690CFF2F6F470B32A9C35CECB9091B /* ZYSMovieSeat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80B11343E77FB6BC3E52320DE73FC4D2 /* ZYSMovieSeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 34889A2D143822E97D3B6B46665EFAA9 /* ZYSMovieSeat.m */; };
+		88E59885FA30AC2A71272C8AD3EB8009 /* ZYSSeatsButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 58580F73331B5DB65D453D28594029BA /* ZYSSeatsButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DC9AFF8F1595B04AE92D881A77D9D38 /* ZYSSeatsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 309F5ACB02BAE7B06FB515AA8E7CAC46 /* ZYSSeatsButton.m */; };
 		8EC1C8F8C76EDF5D019E8EBA01C2ABB3 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E18CF79B9C18D81A7E99EA6A3B69C77F /* NSObject+MJCoding.m */; };
+		90C082EC589ED6ACF8F2F3829E1D989B /* UIView+YSAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D1C4968483BB31BD063AA45A78B2240 /* UIView+YSAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9118138C71D262BCAD195EA25951A37C /* ZYSCenterLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = B1396622E3BB0E62DE3FB3A7567A09D5 /* ZYSCenterLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		990AC65D998E6097AE2E9EB581AEA0B9 /* ZYSMovieTools.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3A3F39022F0F49D73717727A0F8F55 /* ZYSMovieTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A56F8D3FFD6F4A7354897FB39ADBDAF /* ZYSSeatsIndexView.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF25CB5948774CD8149317E77A177A2 /* ZYSSeatsIndexView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A61CBA1B7EC469C602F47186539239E0 /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAA16945786608E1C9962CCE56900A6 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A75E7C3A482CFE3FFDC50D2375855FD6 /* ZYSSeatsButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 437C49BE9F258E9B25F1CF43F9A6FAA7 /* ZYSSeatsButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6B092857B669A914776ECD198264FC /* ZYSIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 431FF6A4F4B84A7CAC333634F0A60FB9 /* ZYSIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0D5610E57EB1A1977EE3544B66E3FBF /* Pods-YSSeatsPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5311D418291322C81E7F03A6D625873D /* Pods-YSSeatsPicker_Tests-dummy.m */; };
 		B5CD2373C28A39FC82706F25D5FDB5C3 /* Pods-YSSeatsPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5C8CE37C2B14052D271F5B495A458F /* Pods-YSSeatsPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7B68FDABB146B87FA3C9E987D2014DE /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = BA34D708EF1B72D4A38AC39D19AD1F24 /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCB1D53472586CADA3D0E62707CCA213 /* ZYSSeatsPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E11C81D392EC25AC0BA1300741624C /* ZYSSeatsPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCB9F278F0767CF24B2D3842193B386D /* ZYSSeatsIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EE5F0BABBCA6B03A4104414DF9627E /* ZYSSeatsIndexView.m */; };
-		BD72272A9CC91CF5C1685DC74E535B91 /* ZYSSeatsPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 008BB5F17FAE768DFDE58900EC3A4D73 /* ZYSSeatsPicker.m */; };
-		C1AB4063777F85ACCF939FCE42B67FC8 /* ZYSMovieSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B19FB385CEF4F22D2BD8E6322D8B0E1 /* ZYSMovieSection.m */; };
-		C5928F1D8C12BA70C43E067816EA38B6 /* ZYSCenterLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 387358F34BBC8B0D76FB41C8E59ACDDB /* ZYSCenterLineView.m */; };
-		C9089EAE778C081C08A00BB6B841AB1B /* ZYSIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DC09FA03287405BE4D9DC8641D66E5 /* ZYSIndicatorView.m */; };
-		C9166E0F0AEA9F4A9A4CBA9EA4B6AC88 /* ZYSIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7DFC1DAA8089085EB0A6D20202D242 /* ZYSIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCB9F278F0767CF24B2D3842193B386D /* ZYSSeatsIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59215F66ABE12F95B28A3569DBD4D7D6 /* ZYSSeatsIndexView.m */; };
+		BD5A1E92AE99EF8508D6F4E2F2442189 /* ZYSMovieSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 033CB18048C476F63E33BA966E964A8F /* ZYSMovieSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD72272A9CC91CF5C1685DC74E535B91 /* ZYSSeatsPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FADC3A7D47D9E10AA955086CFE703F2B /* ZYSSeatsPicker.m */; };
+		BEA6039D90E82488701313D190D0E55C /* YSSeatsPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B978A7A958EAC3F16306E0B18426EE25 /* YSSeatsPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1AB4063777F85ACCF939FCE42B67FC8 /* ZYSMovieSection.m in Sources */ = {isa = PBXBuildFile; fileRef = D080780B51E051D8F6C6A357ECFB62B9 /* ZYSMovieSection.m */; };
+		C5928F1D8C12BA70C43E067816EA38B6 /* ZYSCenterLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF39A46ACA358E6861114CD57A102A /* ZYSCenterLineView.m */; };
+		C9089EAE778C081C08A00BB6B841AB1B /* ZYSIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 644751FAA8377AB832E0E971ED63EF86 /* ZYSIndicatorView.m */; };
 		CD4D283A61707C386754BBD31F5BEABB /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C8878A9E0690D04B5D51B122920D7 /* MJExtensionConst.m */; };
 		CF613C45AD04248C52488C4F7CA3719B /* Pods-YSSeatsPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A48AF133067B5E6E2B1DFC22E1F649E0 /* Pods-YSSeatsPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3430189C5E9183B0B750F32365924AE /* ZYSHallLogoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A0474C5F5E4DDA67B039F77AF80D9A /* ZYSHallLogoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E46BBE326FB10A351BB37C883BB2DE69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E5FCA2ABBE2C5EF75F004103BC26D472 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A3A3C34DED74C98A33BB0948DCBCEB /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E697D14E581CAEE081A1F6B467A014B7 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 790A2F1E41BCD00D834922AF37F8FCC7 /* MJProperty.m */; };
-		F49925001A21A4E8FE97BA4B0449325D /* ZYSHallLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1220B1876B6BE993A3E8E484D01D4B29 /* ZYSHallLogoView.m */; };
+		F49925001A21A4E8FE97BA4B0449325D /* ZYSHallLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E150B2EB3D9ACDA4479C77D36ED1B /* ZYSHallLogoView.m */; };
 		F53BE19B2CB360AC554A04B27DED8519 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 545233A544BE3DDF31F05409EE873594 /* MJFoundation.m */; };
 		F75E2AE2D12480AE889D1D3B7A654FAA /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 871F4E87C6D9BE7F5B1DFE948341EB0E /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7AD74FDED30B69518D342462E71F76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F883E6FD03B02615C092C51834BF41E2 /* YSSeatsPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 125BBDA0DC4428447F8FB95121DB2FD2 /* YSSeatsPicker-dummy.m */; };
-		FA230B51588D2295F5925995496B65AC /* ZYSMovieSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A17FD629295DE6E29A706DD3B80F765 /* ZYSMovieSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC1EFD205B7D8E512BA4A9405CACD40D /* ZYSSeatsIndexView.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB666188F1AD3279CFF6E6455139FC5 /* ZYSSeatsIndexView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F883E6FD03B02615C092C51834BF41E2 /* YSSeatsPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 043769942FE00243C92CE8F7AB3DC7FC /* YSSeatsPicker-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,86 +82,87 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008BB5F17FAE768DFDE58900EC3A4D73 /* ZYSSeatsPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSSeatsPicker.m; sourceTree = "<group>"; };
-		08974D2D522FCB324C7A040BAF3FA376 /* ZYSMovie.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZYSMovie.bundle; path = YSSeatsPicker/Assets/ZYSMovie.bundle; sourceTree = "<group>"; };
+		033CB18048C476F63E33BA966E964A8F /* ZYSMovieSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSMovieSection.h; sourceTree = "<group>"; };
+		043769942FE00243C92CE8F7AB3DC7FC /* YSSeatsPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSSeatsPicker-dummy.m"; sourceTree = "<group>"; };
 		0A410D0C9C7AA0EF8CB20F85639B8D29 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
-		0B410A0AA7D0A4F05B33C04A1206E2EC /* UIView+YSAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+YSAddition.h"; sourceTree = "<group>"; };
 		0E3BDE87C47FE4DA2F8B63B9423E7E1E /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
-		1220B1876B6BE993A3E8E484D01D4B29 /* ZYSHallLogoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSHallLogoView.m; sourceTree = "<group>"; };
-		125BBDA0DC4428447F8FB95121DB2FD2 /* YSSeatsPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSSeatsPicker-dummy.m"; sourceTree = "<group>"; };
+		1373DE3DDE225B5667E83861D6D4A10A /* YSSeatsPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSSeatsPicker-prefix.pch"; sourceTree = "<group>"; };
 		147C0EB046BCDCE4AF7FE25E4E6239F3 /* Pods-YSSeatsPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSSeatsPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		1A1D6C2A1F25106D62FB7E180C845D9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E0E570EF44ED37FAC5F57A6E0ACAF05 /* ZYSMovieTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSMovieTools.m; sourceTree = "<group>"; };
+		20C500A45146B3BC2DADBD3A46774462 /* YSSeatsPickerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSSeatsPickerHeader.h; sourceTree = "<group>"; };
 		22802D6503C93A29B4C630172941360A /* Pods-YSSeatsPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSSeatsPicker_Tests-resources.sh"; sourceTree = "<group>"; };
 		28A81D929F589E43A21CF4246F581E92 /* Pods-YSSeatsPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSSeatsPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2AF2E4E319FA37E421350044D22A14E4 /* ZYSMovie.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZYSMovie.bundle; path = YSSeatsPicker/Assets/ZYSMovie.bundle; sourceTree = "<group>"; };
+		2FEF39A46ACA358E6861114CD57A102A /* ZYSCenterLineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSCenterLineView.m; sourceTree = "<group>"; };
+		309F5ACB02BAE7B06FB515AA8E7CAC46 /* ZYSSeatsButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSSeatsButton.m; sourceTree = "<group>"; };
+		34889A2D143822E97D3B6B46665EFAA9 /* ZYSMovieSeat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSMovieSeat.m; sourceTree = "<group>"; };
 		355099623F7530895DDFB8F60F072DC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		355FE1A44815D024EE3C7CC9A619E54D /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MJExtension.modulemap; sourceTree = "<group>"; };
 		368E774FF38975D032B5E4823FFFE72C /* Pods-YSSeatsPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSSeatsPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		371DCC627A9CFFCE0AE44F6A3869ABF4 /* Pods-YSSeatsPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSSeatsPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		387358F34BBC8B0D76FB41C8E59ACDDB /* ZYSCenterLineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSCenterLineView.m; sourceTree = "<group>"; };
 		3A898EFF4E7A1586E92094F94B89A8E2 /* Pods-YSSeatsPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSSeatsPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D1C4968483BB31BD063AA45A78B2240 /* UIView+YSAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+YSAddition.h"; sourceTree = "<group>"; };
 		4042F751B582695E5BDAEBCF605BBF93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		437C49BE9F258E9B25F1CF43F9A6FAA7 /* ZYSSeatsButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSSeatsButton.h; sourceTree = "<group>"; };
+		431FF6A4F4B84A7CAC333634F0A60FB9 /* ZYSIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSIndicatorView.h; sourceTree = "<group>"; };
 		43A423FA70AA30D6F2A27D4632FA3DA7 /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
 		44A7C3C2CFE34D3DD33C0EB8F8B816BF /* Pods-YSSeatsPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSSeatsPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4A5C8CE37C2B14052D271F5B495A458F /* Pods-YSSeatsPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSSeatsPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		4F2E614EC1C3C50089D2ABF9E9035817 /* ZYSSeatsPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSSeatsPicker.h; sourceTree = "<group>"; };
 		5311D418291322C81E7F03A6D625873D /* Pods-YSSeatsPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSSeatsPicker_Tests-dummy.m"; sourceTree = "<group>"; };
 		545233A544BE3DDF31F05409EE873594 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
 		547E04D294F257132BC831ADCECD9C6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		564C2A3BC90E5EE3AB5F032F43B1291C /* YSSeatsPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YSSeatsPicker.modulemap; sourceTree = "<group>"; };
+		58580F73331B5DB65D453D28594029BA /* ZYSSeatsButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSSeatsButton.h; sourceTree = "<group>"; };
+		59215F66ABE12F95B28A3569DBD4D7D6 /* ZYSSeatsIndexView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSSeatsIndexView.m; sourceTree = "<group>"; };
+		59A0474C5F5E4DDA67B039F77AF80D9A /* ZYSHallLogoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSHallLogoView.h; sourceTree = "<group>"; };
 		5AB6FF722B58512EAF636070DC72CC7A /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
-		60E11C81D392EC25AC0BA1300741624C /* ZYSSeatsPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSSeatsPicker.h; sourceTree = "<group>"; };
 		63D90F731A3053DB7591E623D48A281E /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		644751FAA8377AB832E0E971ED63EF86 /* ZYSIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSIndicatorView.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		667EFD6237ACA4839F87273143773D4C /* Pods-YSSeatsPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSSeatsPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6889FFE66F336792FA6123BE113B4663 /* Pods-YSSeatsPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YSSeatsPicker_Example.modulemap"; sourceTree = "<group>"; };
-		6995A5BC57DEC49F4B537D2E92E657D9 /* ZYSMovieSeat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSMovieSeat.m; sourceTree = "<group>"; };
-		6A7DFC1DAA8089085EB0A6D20202D242 /* ZYSIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSIndicatorView.h; sourceTree = "<group>"; };
-		6EEFE3054A47CAA9C1485FF47E1DA14F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70E094CEB570FAFD4D0DBE99280B1535 /* ZYSMovieTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSMovieTools.h; sourceTree = "<group>"; };
 		73D6FB284F79679CAFC96E2B374FF302 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		790A2F1E41BCD00D834922AF37F8FCC7 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
 		79C7299B4F895E3ED2C0A1E73AA8FA4E /* Pods-YSSeatsPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSSeatsPicker_Example-resources.sh"; sourceTree = "<group>"; };
-		7A17FD629295DE6E29A706DD3B80F765 /* ZYSMovieSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSMovieSection.h; sourceTree = "<group>"; };
+		7A69F0A3BDE8E6782CF7E3FFB131FFC9 /* YSSeatsPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YSSeatsPicker.modulemap; sourceTree = "<group>"; };
 		7D9ABD7A0EC7FCB699B33C4E3C6422F7 /* Pods-YSSeatsPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSSeatsPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		814D74953564BF921B106C5A8A00E18F /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
-		86B17FDC45DE883C2E716E8DF1540831 /* YSSeatsPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSSeatsPicker-prefix.pch"; sourceTree = "<group>"; };
 		871F4E87C6D9BE7F5B1DFE948341EB0E /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
-		8B19FB385CEF4F22D2BD8E6322D8B0E1 /* ZYSMovieSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSMovieSection.m; sourceTree = "<group>"; };
-		8C4BA25C2BD42FB5F1983D89D7B09FE2 /* ZYSMovieTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSMovieTools.m; sourceTree = "<group>"; };
-		8E9C7473191CB514D708D63B1A9A7FFF /* ZYSHallLogoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSHallLogoView.h; sourceTree = "<group>"; };
+		8D690CFF2F6F470B32A9C35CECB9091B /* ZYSMovieSeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSMovieSeat.h; sourceTree = "<group>"; };
 		9193F6B3E7DA4B89DB231331D181C4B9 /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E964DD096C0F8A67DCB5F87F845A92D /* Pods-YSSeatsPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSSeatsPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9F8EB54D8794973BB0755B505D8AFF8A /* UIView+YSAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+YSAddition.m"; sourceTree = "<group>"; };
 		A48AF133067B5E6E2B1DFC22E1F649E0 /* Pods-YSSeatsPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSSeatsPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A6F39865043ADE8A6C5C7161C21F5942 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
 		A80553F8AC1793E4EF3FB07858A92667 /* Pods_YSSeatsPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YSSeatsPicker_Tests.framework; path = "Pods-YSSeatsPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93E3C6635323BCD8BAFDF9C03A2610D /* Pods-YSSeatsPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSSeatsPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AE12B5E02CD6723043A1207E28C29788 /* YSSeatsPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSSeatsPicker-umbrella.h"; sourceTree = "<group>"; };
 		AF5C8878A9E0690D04B5D51B122920D7 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		B1396622E3BB0E62DE3FB3A7567A09D5 /* ZYSCenterLineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSCenterLineView.h; sourceTree = "<group>"; };
 		B4C4E8583FBE38883C9A8F6CED0B9AB8 /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
-		B5DC09FA03287405BE4D9DC8641D66E5 /* ZYSIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSIndicatorView.m; sourceTree = "<group>"; };
-		B8D255B38FFEA26C641BA53996BE4F86 /* ZYSMovieSeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSMovieSeat.h; sourceTree = "<group>"; };
+		B978A7A958EAC3F16306E0B18426EE25 /* YSSeatsPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSSeatsPicker-umbrella.h"; sourceTree = "<group>"; };
 		BA34D708EF1B72D4A38AC39D19AD1F24 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
-		BEB666188F1AD3279CFF6E6455139FC5 /* ZYSSeatsIndexView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSSeatsIndexView.h; sourceTree = "<group>"; };
 		C5F358B618C95AF5B81525A3E913689B /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
 		C80C04D32B7A277AE81E06FE4E014C84 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8EE5F0BABBCA6B03A4104414DF9627E /* ZYSSeatsIndexView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSSeatsIndexView.m; sourceTree = "<group>"; };
 		C9ECC967E891FF92252398B969B05EDF /* Pods-YSSeatsPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YSSeatsPicker_Tests.modulemap"; sourceTree = "<group>"; };
 		CDAA16945786608E1C9962CCE56900A6 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		D080780B51E051D8F6C6A357ECFB62B9 /* ZYSMovieSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSMovieSection.m; sourceTree = "<group>"; };
 		D353FBC066C01622661B65670D1F297E /* Pods-YSSeatsPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSSeatsPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D9B34E0F2D80D48B7F00540C7733B21F /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
 		DCBFC1F092A267FB195EAFC811D48BFF /* Pods_YSSeatsPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YSSeatsPicker_Example.framework; path = "Pods-YSSeatsPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0AB84E2C29C277A3861C3E9462022FC /* ZYSSeatsButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSSeatsButton.m; sourceTree = "<group>"; };
 		E18CF79B9C18D81A7E99EA6A3B69C77F /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
 		E2A3A3C34DED74C98A33BB0948DCBCEB /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
-		E6E9B5116B9E3CB4B3C65CEBF28CAD23 /* ZYSCenterLineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSCenterLineView.h; sourceTree = "<group>"; };
+		E87B36AD75E049F473096502878E493C /* YSSeatsPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSSeatsPicker.xcconfig; sourceTree = "<group>"; };
+		EB3A3F39022F0F49D73717727A0F8F55 /* ZYSMovieTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSMovieTools.h; sourceTree = "<group>"; };
 		EB574A30430349912B9AA0E12991FB76 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
 		EDDBBBC1617D4C1B338F6208FFEC7DC4 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		EDF25CB5948774CD8149317E77A177A2 /* ZYSSeatsIndexView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYSSeatsIndexView.h; sourceTree = "<group>"; };
+		EF07A10C36CA0C9EB642C84987FB0040 /* UIView+YSAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+YSAddition.m"; sourceTree = "<group>"; };
 		EF1C24B69A9CA3A0E89CD5BFA5FF4A8F /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
 		F18D18F4F677D18DFE17FF43AA71A3C6 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
 		F21D3B6AB8A0B971DE7A16782E2E38A0 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
-		F2BCB2C4AFE742AFB9D98DD7958DC3DC /* YSSeatsPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSSeatsPicker.xcconfig; sourceTree = "<group>"; };
+		F57E150B2EB3D9ACDA4479C77D36ED1B /* ZYSHallLogoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSHallLogoView.m; sourceTree = "<group>"; };
 		F9C14EB2F8F212A1B08C08C708DC856E /* YSSeatsPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YSSeatsPicker.framework; path = YSSeatsPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADC3A7D47D9E10AA955086CFE703F2B /* ZYSSeatsPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYSSeatsPicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,32 +201,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04E060D19975DF6A9534AF0388185560 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6EEFE3054A47CAA9C1485FF47E1DA14F /* Info.plist */,
-				564C2A3BC90E5EE3AB5F032F43B1291C /* YSSeatsPicker.modulemap */,
-				F2BCB2C4AFE742AFB9D98DD7958DC3DC /* YSSeatsPicker.xcconfig */,
-				125BBDA0DC4428447F8FB95121DB2FD2 /* YSSeatsPicker-dummy.m */,
-				86B17FDC45DE883C2E716E8DF1540831 /* YSSeatsPicker-prefix.pch */,
-				AE12B5E02CD6723043A1207E28C29788 /* YSSeatsPicker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YSSeatsPicker";
-			sourceTree = "<group>";
-		};
-		0D2739977E859FED7F4A299B1FFF9904 /* YSSeatsPicker */ = {
-			isa = PBXGroup;
-			children = (
-				A8E4755F7911E2F740AE3570C68ADB17 /* Models */,
-				E5FFEC24E57D21506298611FE394F297 /* Resources */,
-				04E060D19975DF6A9534AF0388185560 /* Support Files */,
-				CCC4B5F574D5EC6273E1A0C50A6C651D /* Views */,
-			);
-			name = YSSeatsPicker;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		20F73F182F9BE5BB03416DE2DCE270AD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,7 +218,7 @@
 		23D7A397EE7B97B8B4BC9FB693C7D0A0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0D2739977E859FED7F4A299B1FFF9904 /* YSSeatsPicker */,
+				9D0478851D505352A28646FC67C299A7 /* YSSeatsPicker */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -267,6 +243,51 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4BD734C516BFAE8D2EC3C7294429BC39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2AF2E4E319FA37E421350044D22A14E4 /* ZYSMovie.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6811DA6C3747B684C6056FAE9FB1467D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D1C4968483BB31BD063AA45A78B2240 /* UIView+YSAddition.h */,
+				EF07A10C36CA0C9EB642C84987FB0040 /* UIView+YSAddition.m */,
+				20C500A45146B3BC2DADBD3A46774462 /* YSSeatsPickerHeader.h */,
+				B1396622E3BB0E62DE3FB3A7567A09D5 /* ZYSCenterLineView.h */,
+				2FEF39A46ACA358E6861114CD57A102A /* ZYSCenterLineView.m */,
+				59A0474C5F5E4DDA67B039F77AF80D9A /* ZYSHallLogoView.h */,
+				F57E150B2EB3D9ACDA4479C77D36ED1B /* ZYSHallLogoView.m */,
+				431FF6A4F4B84A7CAC333634F0A60FB9 /* ZYSIndicatorView.h */,
+				644751FAA8377AB832E0E971ED63EF86 /* ZYSIndicatorView.m */,
+				58580F73331B5DB65D453D28594029BA /* ZYSSeatsButton.h */,
+				309F5ACB02BAE7B06FB515AA8E7CAC46 /* ZYSSeatsButton.m */,
+				EDF25CB5948774CD8149317E77A177A2 /* ZYSSeatsIndexView.h */,
+				59215F66ABE12F95B28A3569DBD4D7D6 /* ZYSSeatsIndexView.m */,
+				4F2E614EC1C3C50089D2ABF9E9035817 /* ZYSSeatsPicker.h */,
+				FADC3A7D47D9E10AA955086CFE703F2B /* ZYSSeatsPicker.m */,
+			);
+			name = Views;
+			path = YSSeatsPicker/Classes/Views;
+			sourceTree = "<group>";
+		};
+		6F71915515618116F8C96F8B6A718E40 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A1D6C2A1F25106D62FB7E180C845D9F /* Info.plist */,
+				7A69F0A3BDE8E6782CF7E3FFB131FFC9 /* YSSeatsPicker.modulemap */,
+				E87B36AD75E049F473096502878E493C /* YSSeatsPicker.xcconfig */,
+				043769942FE00243C92CE8F7AB3DC7FC /* YSSeatsPicker-dummy.m */,
+				1373DE3DDE225B5667E83861D6D4A10A /* YSSeatsPicker-prefix.pch */,
+				B978A7A958EAC3F16306E0B18426EE25 /* YSSeatsPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YSSeatsPicker";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +300,20 @@
 			);
 			sourceTree = "<group>";
 		};
+		8746F47C05E96B6A8D36329CA94C00C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D690CFF2F6F470B32A9C35CECB9091B /* ZYSMovieSeat.h */,
+				34889A2D143822E97D3B6B46665EFAA9 /* ZYSMovieSeat.m */,
+				033CB18048C476F63E33BA966E964A8F /* ZYSMovieSection.h */,
+				D080780B51E051D8F6C6A357ECFB62B9 /* ZYSMovieSection.m */,
+				EB3A3F39022F0F49D73717727A0F8F55 /* ZYSMovieTools.h */,
+				1E0E570EF44ED37FAC5F57A6E0ACAF05 /* ZYSMovieTools.m */,
+			);
+			name = Models;
+			path = YSSeatsPicker/Classes/Models;
+			sourceTree = "<group>";
+		};
 		88FDEAC399DE779333B834CB61569CEF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,18 +322,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A8E4755F7911E2F740AE3570C68ADB17 /* Models */ = {
+		9D0478851D505352A28646FC67C299A7 /* YSSeatsPicker */ = {
 			isa = PBXGroup;
 			children = (
-				B8D255B38FFEA26C641BA53996BE4F86 /* ZYSMovieSeat.h */,
-				6995A5BC57DEC49F4B537D2E92E657D9 /* ZYSMovieSeat.m */,
-				7A17FD629295DE6E29A706DD3B80F765 /* ZYSMovieSection.h */,
-				8B19FB385CEF4F22D2BD8E6322D8B0E1 /* ZYSMovieSection.m */,
-				70E094CEB570FAFD4D0DBE99280B1535 /* ZYSMovieTools.h */,
-				8C4BA25C2BD42FB5F1983D89D7B09FE2 /* ZYSMovieTools.m */,
+				8746F47C05E96B6A8D36329CA94C00C3 /* Models */,
+				4BD734C516BFAE8D2EC3C7294429BC39 /* Resources */,
+				6F71915515618116F8C96F8B6A718E40 /* Support Files */,
+				6811DA6C3747B684C6056FAE9FB1467D /* Views */,
 			);
-			name = Models;
-			path = YSSeatsPicker/Classes/Models;
+			name = YSSeatsPicker;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -327,28 +360,6 @@
 			path = "Target Support Files/Pods-YSSeatsPicker_Tests";
 			sourceTree = "<group>";
 		};
-		CCC4B5F574D5EC6273E1A0C50A6C651D /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				0B410A0AA7D0A4F05B33C04A1206E2EC /* UIView+YSAddition.h */,
-				9F8EB54D8794973BB0755B505D8AFF8A /* UIView+YSAddition.m */,
-				E6E9B5116B9E3CB4B3C65CEBF28CAD23 /* ZYSCenterLineView.h */,
-				387358F34BBC8B0D76FB41C8E59ACDDB /* ZYSCenterLineView.m */,
-				8E9C7473191CB514D708D63B1A9A7FFF /* ZYSHallLogoView.h */,
-				1220B1876B6BE993A3E8E484D01D4B29 /* ZYSHallLogoView.m */,
-				6A7DFC1DAA8089085EB0A6D20202D242 /* ZYSIndicatorView.h */,
-				B5DC09FA03287405BE4D9DC8641D66E5 /* ZYSIndicatorView.m */,
-				437C49BE9F258E9B25F1CF43F9A6FAA7 /* ZYSSeatsButton.h */,
-				E0AB84E2C29C277A3861C3E9462022FC /* ZYSSeatsButton.m */,
-				BEB666188F1AD3279CFF6E6455139FC5 /* ZYSSeatsIndexView.h */,
-				C8EE5F0BABBCA6B03A4104414DF9627E /* ZYSSeatsIndexView.m */,
-				60E11C81D392EC25AC0BA1300741624C /* ZYSSeatsPicker.h */,
-				008BB5F17FAE768DFDE58900EC3A4D73 /* ZYSSeatsPicker.m */,
-			);
-			name = Views;
-			path = YSSeatsPicker/Classes/Views;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -373,14 +384,6 @@
 			);
 			name = "Pods-YSSeatsPicker_Example";
 			path = "Target Support Files/Pods-YSSeatsPicker_Example";
-			sourceTree = "<group>";
-		};
-		E5FFEC24E57D21506298611FE394F297 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				08974D2D522FCB324C7A040BAF3FA376 /* ZYSMovie.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		FCDFB6E3D607F6356178E2CCB780E066 /* MJExtension */ = {
@@ -424,21 +427,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9107518E8958A1192EB5DA2DD32DA2EF /* Headers */ = {
+		313BAC3129CB2D548025BD23D5655DC6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12219DE59718C1C3263B1C2CBACB04BE /* UIView+YSAddition.h in Headers */,
-				166201ED812FC437B2979ECE037B6229 /* YSSeatsPicker-umbrella.h in Headers */,
-				0F94121BC55787EF90A0B1800ED41170 /* ZYSCenterLineView.h in Headers */,
-				82FF06C41678AE5DC552CEAEA9FE1CF5 /* ZYSHallLogoView.h in Headers */,
-				C9166E0F0AEA9F4A9A4CBA9EA4B6AC88 /* ZYSIndicatorView.h in Headers */,
-				21708A70FCDA593FC1C3241005215600 /* ZYSMovieSeat.h in Headers */,
-				FA230B51588D2295F5925995496B65AC /* ZYSMovieSection.h in Headers */,
-				66279223958D94CA5F6AC60C9F00FEF4 /* ZYSMovieTools.h in Headers */,
-				A75E7C3A482CFE3FFDC50D2375855FD6 /* ZYSSeatsButton.h in Headers */,
-				FC1EFD205B7D8E512BA4A9405CACD40D /* ZYSSeatsIndexView.h in Headers */,
-				BCB1D53472586CADA3D0E62707CCA213 /* ZYSSeatsPicker.h in Headers */,
+				90C082EC589ED6ACF8F2F3829E1D989B /* UIView+YSAddition.h in Headers */,
+				BEA6039D90E82488701313D190D0E55C /* YSSeatsPicker-umbrella.h in Headers */,
+				67028D1EE3831C4F529A4B723196FECA /* YSSeatsPickerHeader.h in Headers */,
+				9118138C71D262BCAD195EA25951A37C /* ZYSCenterLineView.h in Headers */,
+				D3430189C5E9183B0B750F32365924AE /* ZYSHallLogoView.h in Headers */,
+				AA6B092857B669A914776ECD198264FC /* ZYSIndicatorView.h in Headers */,
+				78D822E83F0377115C49DD28986CF687 /* ZYSMovieSeat.h in Headers */,
+				BD5A1E92AE99EF8508D6F4E2F2442189 /* ZYSMovieSection.h in Headers */,
+				990AC65D998E6097AE2E9EB581AEA0B9 /* ZYSMovieTools.h in Headers */,
+				88E59885FA30AC2A71272C8AD3EB8009 /* ZYSSeatsButton.h in Headers */,
+				9A56F8D3FFD6F4A7354897FB39ADBDAF /* ZYSSeatsIndexView.h in Headers */,
+				44A411A5B163EA587320883DA1ACF725 /* ZYSSeatsPicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,7 +535,7 @@
 			buildPhases = (
 				36D93F95DC4ED68828AAE1E13EBD2D3A /* Sources */,
 				36255F943DB0990716C8FDCFC065E46B /* Frameworks */,
-				9107518E8958A1192EB5DA2DD32DA2EF /* Headers */,
+				313BAC3129CB2D548025BD23D5655DC6 /* Headers */,
 				86CF2D012DC3DF5F29F19FDFFC5DA3DB /* Resources */,
 			);
 			buildRules = (
@@ -718,7 +722,7 @@
 		};
 		36C8ADE4C4F165EF63AE57B41046AF36 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2BCB2C4AFE742AFB9D98DD7958DC3DC /* YSSeatsPicker.xcconfig */;
+			baseConfigurationReference = E87B36AD75E049F473096502878E493C /* YSSeatsPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -811,7 +815,7 @@
 		};
 		8BD3EE0FC7B3A70BB60AC8E2E38328D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2BCB2C4AFE742AFB9D98DD7958DC3DC /* YSSeatsPicker.xcconfig */;
+			baseConfigurationReference = E87B36AD75E049F473096502878E493C /* YSSeatsPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
