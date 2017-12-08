@@ -10,17 +10,17 @@
 #endif
 #endif
 
-#import "ZYSMovieSeat.h"
-#import "ZYSMovieSection.h"
-#import "ZYSMovieTools.h"
+#import "YSMovieSeat.h"
+#import "YSMovieSection.h"
+#import "YSMovieTools.h"
 #import "UIView+YSAddition.h"
+#import "YSCenterLineView.h"
+#import "YSHallLogoView.h"
+#import "YSIndicatorView.h"
+#import "YSSeatsButton.h"
+#import "YSSeatsIndexView.h"
+#import "YSSeatsPicker.h"
 #import "YSSeatsPickerHeader.h"
-#import "ZYSCenterLineView.h"
-#import "ZYSHallLogoView.h"
-#import "ZYSIndicatorView.h"
-#import "ZYSSeatsButton.h"
-#import "ZYSSeatsIndexView.h"
-#import "ZYSSeatsPicker.h"
 
 FOUNDATION_EXPORT double YSSeatsPickerVersionNumber;
 FOUNDATION_EXPORT const unsigned char YSSeatsPickerVersionString[];

@@ -1,5 +1,5 @@
 //
-//  ZYSMovieTools.h
+//  YSMovieTools.h
 //  ALAFanBei
 //
 //  Created by yu on 2017/12/8.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ZYSMovieTools : NSObject
+@interface YSMovieTools : NSObject
 
 
 /**

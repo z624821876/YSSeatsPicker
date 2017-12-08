@@ -1,14 +1,14 @@
 //
-//  ZYSMovieSeat.m
+//  YSMovieSeat.m
 //  ALAFanBei
 //
 //  Created by yu on 2017/12/6.
 //  Copyright © 2017年 阿拉丁. All rights reserved.
 //
 
-#import "ZYSMovieSeat.h"
+#import "YSMovieSeat.h"
 
-@implementation ZYSMovieSeat
+@implementation YSMovieSeat
 
 /**
  字典转模型后自动调用
@@ -16,19 +16,19 @@
 - (void)mj_keyValuesDidFinishConvertingToObject {
 
     if ([self.status isEqualToString:@"E"]) {
-        self.type = ZYSMovieSeatTypeCorridor;
+        self.type = YSMovieSeatTypeCorridor;
     }else if ([self.status isEqualToString:@"LK"]) {
-        self.type = ZYSMovieSeatTypeDisabled;
+        self.type = YSMovieSeatTypeDisabled;
     }else if ([self.status isEqualToString:@"N"]) {
-        self.type = ZYSMovieSeatTypeNormal;
+        self.type = YSMovieSeatTypeNormal;
     }else if ([self.status isEqualToString:@"L"]) {
-        self.type = ZYSMovieSeatTypeLoversLeft;
+        self.type = YSMovieSeatTypeLoversLeft;
     }else if ([self.status isEqualToString:@"R"]) {
-        self.type = ZYSMovieSeatTypeLoversRight;
+        self.type = YSMovieSeatTypeLoversRight;
     }else if ([self.status isEqualToString:@"LD"]) {
-        self.type = ZYSMovieSeatTypeLoversLeftDisabled;
+        self.type = YSMovieSeatTypeLoversLeftDisabled;
     }else if ([self.status isEqualToString:@"RD"]) {
-        self.type = ZYSMovieSeatTypeLoversRightDisabled;
+        self.type = YSMovieSeatTypeLoversRightDisabled;
     }
 }
 

@@ -23,7 +23,7 @@ Demo中的数据为真实猫眼电影座位数据
 ```
 #import "YSSeatsPickerHeader.h"
 
-ZYSSeatsPicker *picker = [ZYSSeatsPicker new];
+YSSeatsPicker *picker = [YSSeatsPicker new];
 picker.frame = CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 500);
 picker.seats = section.seats;
 [self.view addSubview:picker];
@@ -41,7 +41,7 @@ picker.seats = section.seats;
 
 校验是否落单:
 ```
-[ZYSMovieTools checkSeatsWhetherAloneWithSelectsSeats:picker.selectSeats forSeats:picker.seats];
+[YSMovieTools checkSeatsWhetherAloneWithSelectsSeats:picker.selectSeats forSeats:picker.seats];
 ```
 
 ## Requirements

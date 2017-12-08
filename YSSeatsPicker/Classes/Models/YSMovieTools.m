@@ -1,16 +1,16 @@
 //
-//  ZYSMovieTools.m
+//  YSMovieTools.m
 //  ALAFanBei
 //
 //  Created by yu on 2017/12/8.
 //  Copyright © 2017年 阿拉丁. All rights reserved.
 //
 
-#import "ZYSMovieTools.h"
+#import "YSMovieTools.h"
 
-#import "ZYSMovieSeat.h"
+#import "YSMovieSeat.h"
 
-@implementation ZYSMovieTools
+@implementation YSMovieTools
 
 + (UIImage *)movieBundleImageWithImageNamed:(NSString *)imageName {
     
@@ -41,7 +41,7 @@
 + (BOOL)checkSeatsWhetherAloneWithSelectsSeats:(NSArray *)selectSeats forSeats:(NSArray *)seats {
     
     __block BOOL whetherAlone = NO;
-    [selectSeats enumerateObjectsUsingBlock:^(ZYSMovieSeat *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+    [selectSeats enumerateObjectsUsingBlock:^(YSMovieSeat *obj, NSUInteger idx, BOOL * _Nonnull stop) {
         // 获取行号
         NSInteger rowNo = obj.rowNo;
         NSInteger columnNo = obj.columnNo;
@@ -52,8 +52,8 @@
         
         if (sameLineArray) {
             // 最开始和最末尾不判断落单  情侣座不判断落单
-            if (sameLineArray.count == columnNo || columnNo == 1 || obj.type == ZYSMovieSeatTypeLoversLeft || obj.type == ZYSMovieSeatTypeLoversRight ||
-                obj.type == ZYSMovieSeatTypeLoversLeftDisabled || obj.type == ZYSMovieSeatTypeLoversRightDisabled) {
+            if (sameLineArray.count == columnNo || columnNo == 1 || obj.type == YSMovieSeatTypeLoversLeft || obj.type == YSMovieSeatTypeLoversRight ||
+                obj.type == YSMovieSeatTypeLoversLeftDisabled || obj.type == YSMovieSeatTypeLoversRightDisabled) {
                 return;
             }
             
@@ -61,8 +61,8 @@
             NSInteger rightVacancy = 0;
             // 搜索左边
             for (NSInteger i = columnNo - 2; i >= 0; i --) {
-                ZYSMovieSeat *leftObj = sameLineArray[i];
-                if (leftObj.type == ZYSMovieSeatTypeNormal) {
+                YSMovieSeat *leftObj = sameLineArray[i];
+                if (leftObj.type == YSMovieSeatTypeNormal) {
                     if (!leftObj.selected) {
                         leftVacancy ++;
                     }else if (leftVacancy != 0) {
@@ -74,8 +74,8 @@
             }
             // 搜索右边
             for (NSInteger i = columnNo; i < sameLineArray.count; i ++) {
-                ZYSMovieSeat *rightObj = sameLineArray[i];
-                if (rightObj.type == ZYSMovieSeatTypeNormal) {
+                YSMovieSeat *rightObj = sameLineArray[i];
+                if (rightObj.type == YSMovieSeatTypeNormal) {
                     if (!rightObj.selected) {
                         rightVacancy ++;
                     }else if (rightVacancy != 0) {

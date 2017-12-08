@@ -1,28 +1,28 @@
 //
-//  ZYSSeatsPicker.m
+//  YSSeatsPicker.m
 //  ALAFanBei
 //
 //  Created by yu on 2017/12/6.
 //  Copyright © 2017年 阿拉丁. All rights reserved.
 //
 
-#import "ZYSSeatsPicker.h"
-#import "ZYSSeatsButton.h"
-#import "ZYSHallLogoView.h"
-#import "ZYSCenterLineView.h"
-#import "ZYSSeatsIndexView.h"
-#import "ZYSIndicatorView.h"
+#import "YSSeatsPicker.h"
+#import "YSSeatsButton.h"
+#import "YSHallLogoView.h"
+#import "YSCenterLineView.h"
+#import "YSSeatsIndexView.h"
+#import "YSIndicatorView.h"
 
-#import "ZYSMovieTools.h"
+#import "YSMovieTools.h"
 #import <UIView+YSAddition.h>
 
-@interface ZYSSeatsPicker ()<UIScrollViewDelegate>
+@interface YSSeatsPicker ()<UIScrollViewDelegate>
 {
     UIView *_contentView;
-    ZYSHallLogoView *_hallLogoView;
-    ZYSCenterLineView *_centerLineView;
-    ZYSSeatsIndexView *_indexView;
-    ZYSIndicatorView *_indicatorView;
+    YSHallLogoView *_hallLogoView;
+    YSCenterLineView *_centerLineView;
+    YSSeatsIndexView *_indexView;
+    YSIndicatorView *_indicatorView;
     UIImageView *_appLogoView;
     
     CGSize _expectationSize;
@@ -43,18 +43,18 @@
     } _flags;
 }
 
-@property (nonatomic, copy) NSMutableArray<ZYSMovieSeat *>   *selectSeats;
+@property (nonatomic, copy) NSMutableArray<YSMovieSeat *>   *selectSeats;
 
 @end
 
-@implementation ZYSSeatsPicker
+@implementation YSSeatsPicker
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
       
-        _hallLogoImage = [ZYSMovieTools movieBundleImageWithImageNamed:@"may_mreserve_seat_screen_img"];
-        _cinemaLogoImage = [ZYSMovieTools movieBundleImageWithImageNamed:@"may_mreserve_brand_icon"];
+        _hallLogoImage = [YSMovieTools movieBundleImageWithImageNamed:@"may_mreserve_seat_screen_img"];
+        _cinemaLogoImage = [YSMovieTools movieBundleImageWithImageNamed:@"may_mreserve_brand_icon"];
         _hallName = @"IMAX";
         
         _cellSize = CGSizeMake(30, 27);
@@ -86,11 +86,11 @@
     
     [self buildSeatsView];
 
-    _centerLineView = [ZYSCenterLineView new];
+    _centerLineView = [YSCenterLineView new];
     _centerLineView.width = 1;
     [self addSubview:_centerLineView];
     
-    _hallLogoView = [[ZYSHallLogoView alloc] init];
+    _hallLogoView = [[YSHallLogoView alloc] init];
     _hallLogoView.hallName = _hallName;
     _hallLogoView.hallLogo = _hallLogoImage;
     _hallLogoView.size = _hallLogoImage.size;
@@ -101,13 +101,13 @@
     _appLogoView.size = _cinemaLogoImage.size;
     [self addSubview:_appLogoView];
     
-    _indexView = [ZYSSeatsIndexView new];
+    _indexView = [YSSeatsIndexView new];
     _indexView.indexList = _indexArray;
     _indexView.itemHeight = _cellSize.height;
     _indexView.lineSpacing = _lineSpacing;
     [self addSubview:_indexView];
     
-    _indicatorView = [[ZYSIndicatorView alloc] initWithSeatsView:_contentView];
+    _indicatorView = [[YSIndicatorView alloc] initWithSeatsView:_contentView];
     _indicatorView.hallLogoImage = _hallLogoImage;
     [self addSubview:_indicatorView];
     CGFloat width = self.width / 3.0 + 6;
@@ -141,13 +141,13 @@
     __block NSInteger maxColumn = 0;
     __block NSInteger maxRow = 0;
     _indexArray = [NSMutableArray array];
-    [_seats enumerateObjectsUsingBlock:^(ZYSMovieSeat *seatModel, NSUInteger idx, BOOL *stop) {
+    [_seats enumerateObjectsUsingBlock:^(YSMovieSeat *seatModel, NSUInteger idx, BOOL *stop) {
         if (_indexArray.count < seatModel.rowNo) {
             [_indexArray addObject:@""];
         }
         
-        if (seatModel.type != ZYSMovieSeatTypeCorridor && seatModel.type != ZYSMovieSeatTypeLoversRight && seatModel.type != ZYSMovieSeatTypeLoversRightDisabled) {
-            ZYSSeatsButton *seatBtn = [ZYSSeatsButton buttonWithType:UIButtonTypeCustom];
+        if (seatModel.type != YSMovieSeatTypeCorridor && seatModel.type != YSMovieSeatTypeLoversRight && seatModel.type != YSMovieSeatTypeLoversRightDisabled) {
+            YSSeatsButton *seatBtn = [YSSeatsButton buttonWithType:UIButtonTypeCustom];
             seatBtn.tag = idx;
             seatBtn.seatmodel = seatModel;
             [seatBtn addTarget:self action:@selector(seatBtnAction:) forControlEvents:UIControlEventTouchUpInside];
@@ -155,7 +155,7 @@
             
             NSInteger columnNo = seatModel.columnNo - 1;
             NSInteger rowNo = seatModel.rowNo - 1;
-            if (seatModel.type == ZYSMovieSeatTypeLoversLeft || seatModel.type == ZYSMovieSeatTypeLoversLeftDisabled) {
+            if (seatModel.type == YSMovieSeatTypeLoversLeft || seatModel.type == YSMovieSeatTypeLoversLeftDisabled) {
                 //情侣座位单独计算
                 
                 seatBtn.frame = (CGRect){
@@ -239,19 +239,20 @@
 - (void)startAnimation {
     
     [self setZoomScale:0.5 animated:NO];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [UIView animateWithDuration:0.4 animations:^{
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [UIView animateWithDuration:0.5 animations:^{
             [self setZoomScale:1.0 animated:NO];
             self.contentOffset = CGPointMake(self.contentSize.width / 2.0 - self.width / 2.0, 0);
         }];
     });
 }
 
-- (void)seatBtnAction:(ZYSSeatsButton *)button {
+- (void)seatBtnAction:(YSSeatsButton *)button {
     
     BOOL isScale = NO;
     
-    ZYSMovieSeat *seat = _seats[button.tag];
+    YSMovieSeat *seat = _seats[button.tag];
 
     if (button.selected) {
     
@@ -262,7 +263,7 @@
             seat.selected = NO;
             
             isScale = YES;
-            if (seat.type == ZYSMovieSeatTypeLoversLeft && _seats.count > button.tag + 1) {
+            if (seat.type == YSMovieSeatTypeLoversLeft && _seats.count > button.tag + 1) {
                 [_selectSeats removeObject:_seats[button.tag + 1]];
             }
             
@@ -281,7 +282,7 @@
             seat.selected = YES;
             isScale = YES;
             
-            if (seat.type == ZYSMovieSeatTypeLoversLeft && _seats.count > button.tag + 1) {
+            if (seat.type == YSMovieSeatTypeLoversLeft && _seats.count > button.tag + 1) {
                 [_selectSeats addObject:_seats[button.tag + 1]];
             }
 
@@ -317,7 +318,7 @@
 
 #pragma mark - Properties
 
-- (void)setSeatsDelegate:(id<ZYSSeatsPickerDelegate>)seatsDelegate {
+- (void)setSeatsDelegate:(id<YSSeatsPickerDelegate>)seatsDelegate {
     _seatsDelegate = seatsDelegate;
     
     _flags.responseToShouldSelectSeat = [_seatsDelegate respondsToSelector:@selector(shouldSelectSeat:inPicker:)];

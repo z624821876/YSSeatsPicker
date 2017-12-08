@@ -1,5 +1,5 @@
 //
-//  ZYSSeatsIndexView.h
+//  YSSeatsIndexView.h
 //  ALAFanBei
 //
 //  Created by yu on 2017/12/7.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZYSSeatsIndexView : UIView
+@interface YSSeatsIndexView : UIView
 
 @property (nonatomic, strong) NSArray<NSString*> *indexList;
 

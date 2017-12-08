@@ -8,8 +8,8 @@
 #ifndef Header_h
 #define Header_h
 
-#import "ZYSMovieSection.h"
-#import "ZYSSeatsPicker.h"
-#import "ZYSMovieTools.h"
+#import "YSMovieSection.h"
+#import "YSSeatsPicker.h"
+#import "YSMovieTools.h"
 
 #endif /* Header_h */

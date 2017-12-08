@@ -1,5 +1,5 @@
 //
-//  ZYSSeatsButton.h
+//  YSSeatsButton.h
 //  ALAFanBei
 //
 //  Created by yu on 2017/12/6.
@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-#import "ZYSMovieSeat.h"
+#import "YSMovieSeat.h"
 
-@interface ZYSSeatsButton : UIButton
+@interface YSSeatsButton : UIButton
 
-@property (nonatomic, strong) ZYSMovieSeat *seatmodel;
+@property (nonatomic, strong) YSMovieSeat *seatmodel;
 
 @end

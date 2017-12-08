@@ -8,7 +8,7 @@
 
 #import "YSViewController.h"
 
-#import "ZYSSeatsSelectionsViewController.h"
+#import "YSSeatsSelectionsViewController.h"
 
 @interface YSViewController ()
 
@@ -29,7 +29,7 @@
 }
 
 - (void)jump {
-    ZYSSeatsSelectionsViewController *vc = [ZYSSeatsSelectionsViewController new];
+    YSSeatsSelectionsViewController *vc = [YSSeatsSelectionsViewController new];
     [self presentViewController:vc animated:YES completion:nil];
     
 }

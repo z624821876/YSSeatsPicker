@@ -1,19 +1,19 @@
 //
-//  ZYSHallLogoView.m
+//  YSHallLogoView.m
 //  ALAFanBei
 //
 //  Created by yu on 2017/12/6.
 //  Copyright © 2017年 阿拉丁. All rights reserved.
 //
 
-#import "ZYSHallLogoView.h"
-#import "ZYSMovieTools.h"
+#import "YSHallLogoView.h"
+#import "YSMovieTools.h"
 
-@interface ZYSHallLogoView ()
+@interface YSHallLogoView ()
 
 @end
 
-@implementation ZYSHallLogoView
+@implementation YSHallLogoView
 
 -(instancetype)initWithFrame:(CGRect)frame {
     
@@ -33,7 +33,7 @@
 // 绘制图片
 - (void)drawRect:(CGRect)rect {
 
-    UIImage *image = [ZYSMovieTools movieBundleImageWithImageNamed:@"may_mreserve_seat_screen_img"];//这里更换你影厅图标
+    UIImage *image = [YSMovieTools movieBundleImageWithImageNamed:@"may_mreserve_seat_screen_img"];//这里更换你影厅图标
     [image drawInRect:rect];
 
     NSDictionary *attributeName = @{NSFontAttributeName: [UIFont systemFontOfSize:9],NSForegroundColorAttributeName : [UIColor darkGrayColor]};

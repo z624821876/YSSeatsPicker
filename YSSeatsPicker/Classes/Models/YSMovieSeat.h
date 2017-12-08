@@ -1,5 +1,5 @@
 //
-//  ZYSMovieSeat.h
+//  YSMovieSeat.h
 //  ALAFanBei
 //
 //  Created by yu on 2017/12/6.
@@ -8,17 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NS_ENUM(NSUInteger, ZYSMovieSeatType) {
-    ZYSMovieSeatTypeCorridor = 0,           //走廊
-    ZYSMovieSeatTypeDisabled,               //不可售
-    ZYSMovieSeatTypeNormal,                 //普通可售
-    ZYSMovieSeatTypeLoversLeft,             //情侣左可售
-    ZYSMovieSeatTypeLoversRight,            //情侣右可售
-    ZYSMovieSeatTypeLoversLeftDisabled,     //情侣左不可售
-    ZYSMovieSeatTypeLoversRightDisabled     //情侣右不可售
+typedef NS_ENUM(NSUInteger, YSMovieSeatType) {
+    YSMovieSeatTypeCorridor = 0,           //走廊
+    YSMovieSeatTypeDisabled,               //不可售
+    YSMovieSeatTypeNormal,                 //普通可售
+    YSMovieSeatTypeLoversLeft,             //情侣左可售
+    YSMovieSeatTypeLoversRight,            //情侣右可售
+    YSMovieSeatTypeLoversLeftDisabled,     //情侣左不可售
+    YSMovieSeatTypeLoversRightDisabled     //情侣右不可售
 };
 
-@interface ZYSMovieSeat : NSObject
+@interface YSMovieSeat : NSObject
 
 /* 用来显示编号 */
 /** 列号 不包含空行 */
@@ -38,7 +38,7 @@ typedef NS_ENUM(NSUInteger, ZYSMovieSeatType) {
 /** 座位编号 */
 @property (nonatomic, assign) NSInteger seatNo;
 
-@property (nonatomic, assign) ZYSMovieSeatType  type;
+@property (nonatomic, assign) YSMovieSeatType  type;
 
     //extension
 @property (nonatomic, assign) BOOL  selected;

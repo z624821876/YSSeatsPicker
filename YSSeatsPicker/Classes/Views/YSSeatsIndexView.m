@@ -1,16 +1,16 @@
 //
-//  ZYSSeatsIndexView.m
+//  YSSeatsIndexView.m
 //  ALAFanBei
 //
 //  Created by yu on 2017/12/7.
 //  Copyright © 2017年 阿拉丁. All rights reserved.
 //
 
-#import "ZYSSeatsIndexView.h"
+#import "YSSeatsIndexView.h"
 
 #import <UIView+YSAddition.h>
 
-@implementation ZYSSeatsIndexView
+@implementation YSSeatsIndexView
 {
     CGFloat _topInset;
 }

@@ -1,17 +1,17 @@
 //
-//  ZYSIndicatorView.m
+//  YSIndicatorView.m
 //  ALAFanBei
 //
 //  Created by yu on 2017/12/6.
 //  Copyright © 2017年 阿拉丁. All rights reserved.
 //
 
-#import "ZYSIndicatorView.h"
-#import "ZYSMovieTools.h"
+#import "YSIndicatorView.h"
+#import "YSMovieTools.h"
 
 #import <UIView+YSAddition.h>
 
-@implementation ZYSIndicatorView
+@implementation YSIndicatorView
 {
     UIView      *_seatsView;
     
@@ -36,7 +36,7 @@
         _indicatorView.layer.borderWidth = 2.0f;
         [self addSubview:_indicatorView];
     
-        _hallLogoImage = [ZYSMovieTools movieBundleImageWithImageNamed:@"may_mreserve_seat_screen_img"];
+        _hallLogoImage = [YSMovieTools movieBundleImageWithImageNamed:@"may_mreserve_seat_screen_img"];
 
         
         [self updateIndicatorImage];
@@ -49,7 +49,7 @@
  */
 - (void)updateIndicatorImage {
 
-    _mapImage = [ZYSMovieTools snapshotImageWithView:_seatsView];
+    _mapImage = [YSMovieTools snapshotImageWithView:_seatsView];
     
     [self setNeedsDisplay];
     [self showIndicator];

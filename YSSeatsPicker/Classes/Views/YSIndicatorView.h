@@ -1,5 +1,5 @@
 //
-//  ZYSIndicatorView.h
+//  YSIndicatorView.h
 //  ALAFanBei
 //
 //  Created by yu on 2017/12/6.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZYSIndicatorView : UIView
+@interface YSIndicatorView : UIView
 
 @property (nonatomic, strong) UIImage   *hallLogoImage;
 

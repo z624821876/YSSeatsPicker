@@ -1,5 +1,5 @@
 //
-//  ZYSMovieSection.h
+//  YSMovieSection.h
 //  ALAFanBei
 //
 //  Created by yu on 2017/12/6.
@@ -8,14 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-#import "ZYSMovieSeat.h"
+#import "YSMovieSeat.h"
 
-@interface ZYSMovieSection : NSObject
+@interface YSMovieSection : NSObject
 
 @property (nonatomic, strong) NSString  *ID;
 
 @property (nonatomic, strong) NSString  *name;
 
-@property (nonatomic, copy) NSArray<ZYSMovieSeat *>  *seats;
+@property (nonatomic, copy) NSArray<YSMovieSeat *>  *seats;
 
 @end

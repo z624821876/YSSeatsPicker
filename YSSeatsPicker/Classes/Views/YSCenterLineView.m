@@ -1,23 +1,23 @@
 //
-//  ZYSCenterLineView.m
+//  YSCenterLineView.m
 //  ALAFanBei
 //
 //  Created by yu on 2017/12/6.
 //  Copyright © 2017年 阿拉丁. All rights reserved.
 //
 
-#import "ZYSCenterLineView.h"
+#import "YSCenterLineView.h"
 
 #import <UIView+YSAddition.h>
 
-@interface ZYSCenterLineView ()
+@interface YSCenterLineView ()
 {
     UILabel *_centerLabel;
 }
 
 @end
 
-@implementation ZYSCenterLineView
+@implementation YSCenterLineView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     

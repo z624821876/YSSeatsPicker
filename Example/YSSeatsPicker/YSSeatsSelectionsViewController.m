@@ -1,24 +1,24 @@
 //
-//  ZYSSeatsSelectionsViewController.m
+//  YSSeatsSelectionsViewController.m
 //  ALAFanBei
 //
 //  Created by yu on 2017/12/6.
 //  Copyright © 2017年 阿拉丁. All rights reserved.
 //
 
-#import "ZYSSeatsSelectionsViewController.h"
+#import "YSSeatsSelectionsViewController.h"
 
 #import "YSSeatsPickerHeader.h"
 
 #import "MJExtension.h"
 
-@interface ZYSSeatsSelectionsViewController ()
+@interface YSSeatsSelectionsViewController ()
 
-@property (nonatomic, strong) ZYSSeatsPicker    *picker;
+@property (nonatomic, strong) YSSeatsPicker    *picker;
 
 @end
 
-@implementation ZYSSeatsSelectionsViewController
+@implementation YSSeatsSelectionsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,10 +27,10 @@
     
     NSString *path = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"Movie.plist"] ofType:nil];
     NSDictionary *seatsDic = [NSDictionary dictionaryWithContentsOfFile:path];
-    NSArray *array = [ZYSMovieSection mj_objectArrayWithKeyValuesArray:seatsDic[@"sections"]];
-    ZYSMovieSection *section = [array firstObject];
+    NSArray *array = [YSMovieSection mj_objectArrayWithKeyValuesArray:seatsDic[@"sections"]];
+    YSMovieSection *section = [array firstObject];
     
-    _picker = [ZYSSeatsPicker new];
+    _picker = [YSSeatsPicker new];
     _picker.frame = CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 500);
     _picker.seats = section.seats;
     [self.view addSubview:_picker];
@@ -41,7 +41,7 @@
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    if ([ZYSMovieTools checkSeatsWhetherAloneWithSelectsSeats:_picker.selectSeats forSeats:_picker.seats]) {
+    if ([YSMovieTools checkSeatsWhetherAloneWithSelectsSeats:_picker.selectSeats forSeats:_picker.seats]) {
         NSLog(@"********************************");
         NSLog(@"**************落单***************");
         NSLog(@"********************************");

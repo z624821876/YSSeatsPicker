@@ -1,6 +1,6 @@
 PODS:
   - MJExtension (3.0.13)
-  - YSSeatsPicker (1.0.1)
+  - YSSeatsPicker (1.0.2)
 
 DEPENDENCIES:
   - MJExtension (= 3.0.13)
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  YSSeatsPicker: 3f81c767456f8a035351593e7b64052d3d7f3f44
+  YSSeatsPicker: 9bdaf1cf0b24d6f9a4592b23a94ae4515f066577
 
 PODFILE CHECKSUM: 9ea87052ee938cd4468d717c41e26ede484fa8cd
 
