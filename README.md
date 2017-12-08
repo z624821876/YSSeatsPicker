@@ -12,7 +12,7 @@
 
 ## Example
 
-![](blob:http://www.gif5.net/6fc722f7-8491-434a-8b07-c1aa35123add)
+![](6fc722f7-8491-434a-8b07-c1aa35123add.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
