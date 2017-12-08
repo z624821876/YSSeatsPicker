@@ -8,6 +8,8 @@
 
 #import "YSViewController.h"
 
+#import "ZYSSeatsSelectionsViewController.h"
+
 @interface YSViewController ()
 
 @end
@@ -17,7 +19,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(100, 100, 100, 100);
+    button.backgroundColor = [UIColor blackColor];
+    [button setTitle:@"跳转选座" forState:UIControlStateNormal];
+    [self.view addSubview:button];
+    [button addTarget:self action:@selector(jump) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)jump {
+    ZYSSeatsSelectionsViewController *vc = [ZYSSeatsSelectionsViewController new];
+    [self presentViewController:vc animated:YES completion:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning
