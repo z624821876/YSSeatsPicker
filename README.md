@@ -12,6 +12,8 @@
 
 ## Example
 
+![](blob:http://www.gif5.net/6fc722f7-8491-434a-8b07-c1aa35123add)
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 Demo中的数据为真实猫眼电影座位数据
