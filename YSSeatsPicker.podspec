@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YSSeatsPicker'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '仿猫眼电影选座 实现基础选座功能、情侣座、落单判断等功能'
 
   s.homepage         = 'https://github.com/z624821876/YSSeatsPicker.git'
