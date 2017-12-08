@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YSSeatsPicker_Example' do
+  pod 'YSSeatsPicker', :path => '../'
+
+  target 'YSSeatsPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
